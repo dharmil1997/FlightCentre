@@ -6,5 +6,5 @@ I have got separate classes that perform their unique task such as the JSON data
 ## Challenges
 At first, I did not realise that I needed to have the flights divided into date sections. Then I had to implement the sorting of the flights by date in the FlightListViewController class by creating a new Struct which holds the flight list by particular dates using filters. I could have done it in the Struct where the API data is set. The benefit is that the primary Struct data(API data) will be preserved if needed somewhere else, promoting reusability.
 
-## Required Pod to run the project
+## Required Pod
 Alamofire - https://cocoapods.org/pods/Alamofire
