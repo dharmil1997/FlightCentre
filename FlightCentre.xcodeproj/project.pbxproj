@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061645EE4C05FF038EADBD08 /* Pods_FlightCentre_FlightCentreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735B63922AFCC1BACA7C4317 /* Pods_FlightCentre_FlightCentreUITests.framework */; };
+		0B47226528E45298E0236BF3 /* Pods_FlightCentre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23483914F0882519EA6211F /* Pods_FlightCentre.framework */; };
+		C775FC97BF2F1D2F4696F0A1 /* Pods_FlightCentreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CB7406CA5E1121E0F12767 /* Pods_FlightCentreTests.framework */; };
+		D678676925D15E93001BEB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678676825D15E93001BEB46 /* AppDelegate.swift */; };
+		D678676B25D15E93001BEB46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678676A25D15E93001BEB46 /* SceneDelegate.swift */; };
+		D678677025D15E93001BEB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D678676E25D15E93001BEB46 /* Main.storyboard */; };
+		D678677225D15E94001BEB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D678677125D15E94001BEB46 /* Assets.xcassets */; };
+		D678677525D15E94001BEB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D678677325D15E94001BEB46 /* LaunchScreen.storyboard */; };
+		D678678025D15E95001BEB46 /* FlightCentreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678677F25D15E95001BEB46 /* FlightCentreTests.swift */; };
+		D678678B25D15E95001BEB46 /* FlightCentreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678678A25D15E95001BEB46 /* FlightCentreUITests.swift */; };
+		D67867A825D16868001BEB46 /* FlightList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67867A725D16868001BEB46 /* FlightList.swift */; };
+		D67867AD25D168DA001BEB46 /* FlightListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67867AC25D168DA001BEB46 /* FlightListTableViewCell.swift */; };
+		D67867B725D16959001BEB46 /* FlightDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67867B625D16959001BEB46 /* FlightDetailsViewController.swift */; };
+		D67867CC25D1781B001BEB46 /* FlightListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67867CB25D1781B001BEB46 /* FlightListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D678677C25D15E95001BEB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D678675D25D15E93001BEB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D678676425D15E93001BEB46;
+			remoteInfo = FlightCentre;
+		};
+		D678678725D15E95001BEB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D678675D25D15E93001BEB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D678676425D15E93001BEB46;
+			remoteInfo = FlightCentre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0818BBED0F5F1B02D5EF83DC /* Pods-FlightCentreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightCentreTests.debug.xcconfig"; path = "Target Support Files/Pods-FlightCentreTests/Pods-FlightCentreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		087FDA686EBBD237B235D895 /* Pods-FlightCentreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightCentreTests.release.xcconfig"; path = "Target Support Files/Pods-FlightCentreTests/Pods-FlightCentreTests.release.xcconfig"; sourceTree = "<group>"; };
+		3602FB21E78299015F5A2571 /* Pods-FlightCentre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightCentre.release.xcconfig"; path = "Target Support Files/Pods-FlightCentre/Pods-FlightCentre.release.xcconfig"; sourceTree = "<group>"; };
+		460837D6D1A395619FF71335 /* Pods-FlightCentre-FlightCentreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightCentre-FlightCentreUITests.release.xcconfig"; path = "Target Support Files/Pods-FlightCentre-FlightCentreUITests/Pods-FlightCentre-FlightCentreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		735B63922AFCC1BACA7C4317 /* Pods_FlightCentre_FlightCentreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightCentre_FlightCentreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CB7406CA5E1121E0F12767 /* Pods_FlightCentreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightCentreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678676525D15E93001BEB46 /* FlightCentre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightCentre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678676825D15E93001BEB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D678676A25D15E93001BEB46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D678676F25D15E93001BEB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D678677125D15E94001BEB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D678677425D15E94001BEB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D678677625D15E94001BEB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D678677B25D15E95001BEB46 /* FlightCentreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightCentreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678677F25D15E95001BEB46 /* FlightCentreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCentreTests.swift; sourceTree = "<group>"; };
+		D678678125D15E95001BEB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D678678625D15E95001BEB46 /* FlightCentreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightCentreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678678A25D15E95001BEB46 /* FlightCentreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCentreUITests.swift; sourceTree = "<group>"; };
+		D678678C25D15E95001BEB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67867A725D16868001BEB46 /* FlightList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightList.swift; sourceTree = "<group>"; };
+		D67867AC25D168DA001BEB46 /* FlightListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListTableViewCell.swift; sourceTree = "<group>"; };
+		D67867B625D16959001BEB46 /* FlightDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsViewController.swift; sourceTree = "<group>"; };
+		D67867CB25D1781B001BEB46 /* FlightListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListViewController.swift; sourceTree = "<group>"; };
+		E23483914F0882519EA6211F /* Pods_FlightCentre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightCentre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED11B8A5A053818FAD9AA282 /* Pods-FlightCentre-FlightCentreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightCentre-FlightCentreUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlightCentre-FlightCentreUITests/Pods-FlightCentre-FlightCentreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED8A75FDE9BBA8FE4FA7D027 /* Pods-FlightCentre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightCentre.debug.xcconfig"; path = "Target Support Files/Pods-FlightCentre/Pods-FlightCentre.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D678676225D15E93001BEB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B47226528E45298E0236BF3 /* Pods_FlightCentre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678677825D15E95001BEB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C775FC97BF2F1D2F4696F0A1 /* Pods_FlightCentreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678678325D15E95001BEB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061645EE4C05FF038EADBD08 /* Pods_FlightCentre_FlightCentreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8E8BD15762EF06962AF115 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED8A75FDE9BBA8FE4FA7D027 /* Pods-FlightCentre.debug.xcconfig */,
+				3602FB21E78299015F5A2571 /* Pods-FlightCentre.release.xcconfig */,
+				ED11B8A5A053818FAD9AA282 /* Pods-FlightCentre-FlightCentreUITests.debug.xcconfig */,
+				460837D6D1A395619FF71335 /* Pods-FlightCentre-FlightCentreUITests.release.xcconfig */,
+				0818BBED0F5F1B02D5EF83DC /* Pods-FlightCentreTests.debug.xcconfig */,
+				087FDA686EBBD237B235D895 /* Pods-FlightCentreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93B5E96D520835E9D1ACC5AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E23483914F0882519EA6211F /* Pods_FlightCentre.framework */,
+				735B63922AFCC1BACA7C4317 /* Pods_FlightCentre_FlightCentreUITests.framework */,
+				A3CB7406CA5E1121E0F12767 /* Pods_FlightCentreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D678675C25D15E93001BEB46 = {
+			isa = PBXGroup;
+			children = (
+				D678676725D15E93001BEB46 /* FlightCentre */,
+				D678677E25D15E95001BEB46 /* FlightCentreTests */,
+				D678678925D15E95001BEB46 /* FlightCentreUITests */,
+				D678676625D15E93001BEB46 /* Products */,
+				4B8E8BD15762EF06962AF115 /* Pods */,
+				93B5E96D520835E9D1ACC5AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D678676625D15E93001BEB46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D678676525D15E93001BEB46 /* FlightCentre.app */,
+				D678677B25D15E95001BEB46 /* FlightCentreTests.xctest */,
+				D678678625D15E95001BEB46 /* FlightCentreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D678676725D15E93001BEB46 /* FlightCentre */ = {
+			isa = PBXGroup;
+			children = (
+				D678679B25D164C3001BEB46 /* FlightList */,
+				D678676825D15E93001BEB46 /* AppDelegate.swift */,
+				D678676A25D15E93001BEB46 /* SceneDelegate.swift */,
+				D678676E25D15E93001BEB46 /* Main.storyboard */,
+				D678677125D15E94001BEB46 /* Assets.xcassets */,
+				D678677325D15E94001BEB46 /* LaunchScreen.storyboard */,
+				D678677625D15E94001BEB46 /* Info.plist */,
+			);
+			path = FlightCentre;
+			sourceTree = "<group>";
+		};
+		D678677E25D15E95001BEB46 /* FlightCentreTests */ = {
+			isa = PBXGroup;
+			children = (
+				D678677F25D15E95001BEB46 /* FlightCentreTests.swift */,
+				D678678125D15E95001BEB46 /* Info.plist */,
+			);
+			path = FlightCentreTests;
+			sourceTree = "<group>";
+		};
+		D678678925D15E95001BEB46 /* FlightCentreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D678678A25D15E95001BEB46 /* FlightCentreUITests.swift */,
+				D678678C25D15E95001BEB46 /* Info.plist */,
+			);
+			path = FlightCentreUITests;
+			sourceTree = "<group>";
+		};
+		D678679B25D164C3001BEB46 /* FlightList */ = {
+			isa = PBXGroup;
+			children = (
+				D67867A725D16868001BEB46 /* FlightList.swift */,
+				D67867AC25D168DA001BEB46 /* FlightListTableViewCell.swift */,
+				D67867B625D16959001BEB46 /* FlightDetailsViewController.swift */,
+				D67867CB25D1781B001BEB46 /* FlightListViewController.swift */,
+			);
+			path = FlightList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D678676425D15E93001BEB46 /* FlightCentre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D678678F25D15E95001BEB46 /* Build configuration list for PBXNativeTarget "FlightCentre" */;
+			buildPhases = (
+				264CAC8CEFB460AE48F8E7B7 /* [CP] Check Pods Manifest.lock */,
+				D678676125D15E93001BEB46 /* Sources */,
+				D678676225D15E93001BEB46 /* Frameworks */,
+				D678676325D15E93001BEB46 /* Resources */,
+				2F1D9250AE39E963B08C5A80 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightCentre;
+			productName = FlightCentre;
+			productReference = D678676525D15E93001BEB46 /* FlightCentre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D678677A25D15E95001BEB46 /* FlightCentreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D678679225D15E95001BEB46 /* Build configuration list for PBXNativeTarget "FlightCentreTests" */;
+			buildPhases = (
+				564E6DCCD0D039FD9244B29E /* [CP] Check Pods Manifest.lock */,
+				D678677725D15E95001BEB46 /* Sources */,
+				D678677825D15E95001BEB46 /* Frameworks */,
+				D678677925D15E95001BEB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D678677D25D15E95001BEB46 /* PBXTargetDependency */,
+			);
+			name = FlightCentreTests;
+			productName = FlightCentreTests;
+			productReference = D678677B25D15E95001BEB46 /* FlightCentreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D678678525D15E95001BEB46 /* FlightCentreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D678679525D15E95001BEB46 /* Build configuration list for PBXNativeTarget "FlightCentreUITests" */;
+			buildPhases = (
+				79E4B76D86A32590792E5B8B /* [CP] Check Pods Manifest.lock */,
+				D678678225D15E95001BEB46 /* Sources */,
+				D678678325D15E95001BEB46 /* Frameworks */,
+				D678678425D15E95001BEB46 /* Resources */,
+				14D3C2056F9B7BFD1D98C5AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D678678825D15E95001BEB46 /* PBXTargetDependency */,
+			);
+			name = FlightCentreUITests;
+			productName = FlightCentreUITests;
+			productReference = D678678625D15E95001BEB46 /* FlightCentreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D678675D25D15E93001BEB46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D678676425D15E93001BEB46 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					D678677A25D15E95001BEB46 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D678676425D15E93001BEB46;
+					};
+					D678678525D15E95001BEB46 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D678676425D15E93001BEB46;
+					};
+				};
+			};
+			buildConfigurationList = D678676025D15E93001BEB46 /* Build configuration list for PBXProject "FlightCentre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D678675C25D15E93001BEB46;
+			productRefGroup = D678676625D15E93001BEB46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D678676425D15E93001BEB46 /* FlightCentre */,
+				D678677A25D15E95001BEB46 /* FlightCentreTests */,
+				D678678525D15E95001BEB46 /* FlightCentreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D678676325D15E93001BEB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D678677525D15E94001BEB46 /* LaunchScreen.storyboard in Resources */,
+				D678677225D15E94001BEB46 /* Assets.xcassets in Resources */,
+				D678677025D15E93001BEB46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678677925D15E95001BEB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678678425D15E95001BEB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D3C2056F9B7BFD1D98C5AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlightCentre-FlightCentreUITests/Pods-FlightCentre-FlightCentreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlightCentre-FlightCentreUITests/Pods-FlightCentre-FlightCentreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlightCentre-FlightCentreUITests/Pods-FlightCentre-FlightCentreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		264CAC8CEFB460AE48F8E7B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlightCentre-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F1D9250AE39E963B08C5A80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlightCentre/Pods-FlightCentre-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlightCentre/Pods-FlightCentre-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlightCentre/Pods-FlightCentre-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		564E6DCCD0D039FD9244B29E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlightCentreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E4B76D86A32590792E5B8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlightCentre-FlightCentreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D678676125D15E93001BEB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67867B725D16959001BEB46 /* FlightDetailsViewController.swift in Sources */,
+				D67867A825D16868001BEB46 /* FlightList.swift in Sources */,
+				D678676925D15E93001BEB46 /* AppDelegate.swift in Sources */,
+				D678676B25D15E93001BEB46 /* SceneDelegate.swift in Sources */,
+				D67867CC25D1781B001BEB46 /* FlightListViewController.swift in Sources */,
+				D67867AD25D168DA001BEB46 /* FlightListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678677725D15E95001BEB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D678678025D15E95001BEB46 /* FlightCentreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678678225D15E95001BEB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D678678B25D15E95001BEB46 /* FlightCentreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D678677D25D15E95001BEB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D678676425D15E93001BEB46 /* FlightCentre */;
+			targetProxy = D678677C25D15E95001BEB46 /* PBXContainerItemProxy */;
+		};
+		D678678825D15E95001BEB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D678676425D15E93001BEB46 /* FlightCentre */;
+			targetProxy = D678678725D15E95001BEB46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D678676E25D15E93001BEB46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D678676F25D15E93001BEB46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D678677325D15E94001BEB46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D678677425D15E94001BEB46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D678678D25D15E95001BEB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D678678E25D15E95001BEB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D678679025D15E95001BEB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8A75FDE9BBA8FE4FA7D027 /* Pods-FlightCentre.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFUCKVH9XG;
+				INFOPLIST_FILE = FlightCentre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icappdemo.FlightCentre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D678679125D15E95001BEB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3602FB21E78299015F5A2571 /* Pods-FlightCentre.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFUCKVH9XG;
+				INFOPLIST_FILE = FlightCentre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icappdemo.FlightCentre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D678679325D15E95001BEB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0818BBED0F5F1B02D5EF83DC /* Pods-FlightCentreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFUCKVH9XG;
+				INFOPLIST_FILE = FlightCentreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icappdemo.FlightCentreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightCentre.app/FlightCentre";
+			};
+			name = Debug;
+		};
+		D678679425D15E95001BEB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 087FDA686EBBD237B235D895 /* Pods-FlightCentreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFUCKVH9XG;
+				INFOPLIST_FILE = FlightCentreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icappdemo.FlightCentreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightCentre.app/FlightCentre";
+			};
+			name = Release;
+		};
+		D678679625D15E95001BEB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED11B8A5A053818FAD9AA282 /* Pods-FlightCentre-FlightCentreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFUCKVH9XG;
+				INFOPLIST_FILE = FlightCentreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icappdemo.FlightCentreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightCentre;
+			};
+			name = Debug;
+		};
+		D678679725D15E95001BEB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460837D6D1A395619FF71335 /* Pods-FlightCentre-FlightCentreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFUCKVH9XG;
+				INFOPLIST_FILE = FlightCentreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icappdemo.FlightCentreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightCentre;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D678676025D15E93001BEB46 /* Build configuration list for PBXProject "FlightCentre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D678678D25D15E95001BEB46 /* Debug */,
+				D678678E25D15E95001BEB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D678678F25D15E95001BEB46 /* Build configuration list for PBXNativeTarget "FlightCentre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D678679025D15E95001BEB46 /* Debug */,
+				D678679125D15E95001BEB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D678679225D15E95001BEB46 /* Build configuration list for PBXNativeTarget "FlightCentreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D678679325D15E95001BEB46 /* Debug */,
+				D678679425D15E95001BEB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D678679525D15E95001BEB46 /* Build configuration list for PBXNativeTarget "FlightCentreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D678679625D15E95001BEB46 /* Debug */,
+				D678679725D15E95001BEB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D678675D25D15E93001BEB46 /* Project object */;
+}
